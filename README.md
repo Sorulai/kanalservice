@@ -21,6 +21,13 @@
 
 ## Запуск скрипта через терминал
 
+### Утилиты которые понадобятся:
+>Python
+>
+>PostgreSQL
+
+### Подготовка для запуска:
+
 1. Для начала необходимо заменить константы в файле .env 
 
 - Для этого нужно перейти в __*kanalservice_test/src/*__ и в файле *.env*
@@ -28,7 +35,8 @@
 
 - Файл .env должен выглядеть примерно вот так:
 
-```POSTGRES_USER=your_user
+```
+POSTGRES_USER=your_user
 POSTGRES_PASSWORD=your_password
 POSTGRES_DB=test_db
 POSTGRES_TABLE=test_table
