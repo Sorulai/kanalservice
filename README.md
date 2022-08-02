@@ -28,7 +28,8 @@
 
 - Файл .env должен выглядеть примерно вот так:
 
-```POSTGRES_USER=your_user
+```
+POSTGRES_USER=your_user
 POSTGRES_PASSWORD=your_password
 POSTGRES_DB=test_db
 POSTGRES_TABLE=test_table
