@@ -5,6 +5,8 @@
 для конвертации валюты. Раз в минуту данные в БД обновляются параллельно 
 своему текущему состоянию
 
+[Google Sheet](https://docs.google.com/spreadsheets/d/1YJNeMjZHmX1rPmeLk2A2JY5Axq_OLeRw8zMHRp5DaNI/edit#gid=0)
+
 ***
 
 ## Запуск скрипта через Docker
