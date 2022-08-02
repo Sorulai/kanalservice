@@ -28,13 +28,13 @@
 
 - Файл .env должен выглядеть примерно вот так:
 
-- `POSTGRES_USER=your_user
+- ```POSTGRES_USER=your_user
 POSTGRES_PASSWORD=your_password
 POSTGRES_DB=test_db
 POSTGRES_TABLE=test_table
 POSTGRES_HOST=localhost
 POSTGRES_PORT=5432
-`
+```
 
 2. Возвращаемся в директорию __*kanalservice_test/*__ и в файле *main.py* на 13 строке 
 раcкоментируем `create_db()`. Эта функция автоматически создаст БД в PostgreSQL.
