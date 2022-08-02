@@ -23,12 +23,12 @@
 
 1. Для начала необходимо заменить константы в файле .env 
 
-- Для этого нужно перейти в __*kanalservice_test/src/*__ и в файле .env 
-заменить данные от PostgreSQL на свои и заменить POSTGRES_HOST на localhost(или на тот хост, где у вас находится БД)
+- Для этого нужно перейти в __*kanalservice_test/src/*__ и в файле *.env*
+заменить данные от PostgreSQL на свои и так же заменить POSTGRES_HOST на localhost(или на тот хост, где у вас находится БД)
 
 - Файл .env должен выглядеть примерно вот так:
 
-- ```POSTGRES_USER=your_user
+```POSTGRES_USER=your_user
 POSTGRES_PASSWORD=your_password
 POSTGRES_DB=test_db
 POSTGRES_TABLE=test_table
